@@ -1,0 +1,116 @@
+body{
+    background-color: #232323;
+}
+#top{
+    background-color: cornflowerblue;
+  padding-bottom:0.01%;
+    border-radius:2em;
+}
+.line{
+    background-color: aliceblue;
+    height:30px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+}
+.message{
+    color:#002D62;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-shadow: 2px 2px 8px black;
+    font-weight :700;
+    font-size: inherit;
+    margin-top: 5px;
+    margin-left:250px;
+    margin-right:-10px;
+}
+.easybutton{
+    border:none;
+    background: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+    margin-left: 200px;
+    margin-right:20px;
+}
+.hardbutton{
+    border:none;
+    background: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+    margin-right:100px;
+}
+ .easybutton:hover{
+    background-color:cornflowerblue;
+    color:white;
+    
+
+ } 
+.hardbutton:hover{
+    background-color:cornflowerblue;
+    color:white;
+ }  
+ .reset{
+    border:none;
+    background: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+    margin-left:150px;
+    margin-right:-50px;
+}
+.reset:hover{
+    background-color:cornflowerblue;
+    color:white;
+}
+ .selected{
+    background:cornflowerblue;
+    color:white;
+ }
+
+h1{
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.8em;
+    color:white;
+    letter-spacing: 0.1em;
+}
+h2{
+    
+    text-align: center;
+    font-weight:700;
+    font-size: 50px;
+    color:white;
+    letter-spacing: 0.3em;
+
+}
+h3{
+    
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.8em;
+    color:white;
+    letter-spacing: 0.1em;
+
+}
+.square{
+    width:30%;
+    transition: background 0.7s;
+    padding-bottom:30%;
+    float: left;
+    margin:1.66%;
+    border-radius:2em;
+}
+#container{
+    margin:0 auto;
+    max-width:600px;
+}
